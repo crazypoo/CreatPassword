@@ -21,6 +21,11 @@
 		CC50DF1C179DA942006381F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC50DEFE179DA942006381F9 /* UIKit.framework */; };
 		CC50DF24179DA942006381F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC50DF22179DA942006381F9 /* InfoPlist.strings */; };
 		CC50DF26179DA942006381F9 /* CreatPasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC50DF25179DA942006381F9 /* CreatPasswordTests.m */; };
+		CC50DF30179DC0F9006381F9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC50DF2F179DC0F9006381F9 /* SystemConfiguration.framework */; };
+		CC50DF32179DC100006381F9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC50DF31179DC100006381F9 /* AudioToolbox.framework */; };
+		CC50DF34179DC105006381F9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC50DF33179DC105006381F9 /* MessageUI.framework */; };
+		CC50DF3C179DC12F006381F9 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC50DF3B179DC12F006381F9 /* libGoogleAdMobAds.a */; };
+		CC50DF3E179DC140006381F9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC50DF3D179DC140006381F9 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,17 @@
 		CC50DF21179DA942006381F9 /* CreatPasswordTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CreatPasswordTests-Info.plist"; sourceTree = "<group>"; };
 		CC50DF23179DA942006381F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC50DF25179DA942006381F9 /* CreatPasswordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreatPasswordTests.m; sourceTree = "<group>"; };
+		CC50DF2F179DC0F9006381F9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CC50DF31179DC100006381F9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CC50DF33179DC105006381F9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CC50DF35179DC12F006381F9 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		CC50DF36179DC12F006381F9 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		CC50DF37179DC12F006381F9 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		CC50DF38179DC12F006381F9 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		CC50DF39179DC12F006381F9 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		CC50DF3A179DC12F006381F9 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		CC50DF3B179DC12F006381F9 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		CC50DF3D179DC140006381F9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +76,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC50DF3E179DC140006381F9 /* AVFoundation.framework in Frameworks */,
+				CC50DF34179DC105006381F9 /* MessageUI.framework in Frameworks */,
+				CC50DF32179DC100006381F9 /* AudioToolbox.framework in Frameworks */,
+				CC50DF30179DC0F9006381F9 /* SystemConfiguration.framework in Frameworks */,
 				CC50DEFD179DA942006381F9 /* CoreGraphics.framework in Frameworks */,
+				CC50DF3C179DC12F006381F9 /* libGoogleAdMobAds.a in Frameworks */,
 				CC50DEFF179DA942006381F9 /* UIKit.framework in Frameworks */,
 				CC50DEFB179DA942006381F9 /* Foundation.framework in Frameworks */,
 			);
@@ -101,6 +122,10 @@
 		CC50DEF9179DA942006381F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC50DF3D179DC140006381F9 /* AVFoundation.framework */,
+				CC50DF33179DC105006381F9 /* MessageUI.framework */,
+				CC50DF31179DC100006381F9 /* AudioToolbox.framework */,
+				CC50DF2F179DC0F9006381F9 /* SystemConfiguration.framework */,
 				CC50DEFA179DA942006381F9 /* Foundation.framework */,
 				CC50DEFC179DA942006381F9 /* CoreGraphics.framework */,
 				CC50DEFE179DA942006381F9 /* UIKit.framework */,
@@ -112,6 +137,13 @@
 		CC50DF00179DA942006381F9 /* CreatPassword */ = {
 			isa = PBXGroup;
 			children = (
+				CC50DF35179DC12F006381F9 /* GADBannerView.h */,
+				CC50DF36179DC12F006381F9 /* GADBannerViewDelegate.h */,
+				CC50DF37179DC12F006381F9 /* GADInterstitial.h */,
+				CC50DF38179DC12F006381F9 /* GADInterstitialDelegate.h */,
+				CC50DF39179DC12F006381F9 /* GADRequest.h */,
+				CC50DF3A179DC12F006381F9 /* GADRequestError.h */,
+				CC50DF3B179DC12F006381F9 /* libGoogleAdMobAds.a */,
 				CC50DF09179DA942006381F9 /* AppDelegate.h */,
 				CC50DF0A179DA942006381F9 /* AppDelegate.m */,
 				CC50DF0C179DA942006381F9 /* Main.storyboard */,
@@ -377,6 +409,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CreatPassword/CreatPassword-Prefix.pch";
 				INFOPLIST_FILE = "CreatPassword/CreatPassword-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/CreatPassword",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,6 +426,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CreatPassword/CreatPassword-Prefix.pch";
 				INFOPLIST_FILE = "CreatPassword/CreatPassword-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/CreatPassword",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
